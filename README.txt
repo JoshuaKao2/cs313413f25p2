@@ -13,3 +13,8 @@ list.remove(5); //  Question: What does this method do?
 list.remove(Integer.valueOf(5)); //  What does this method do?
 - it removes the value 5 from the list
 
+TestPerformance
+- as size increases, LinkedList is faster at adding and removing
+- as size increases, ArrayList is faster at indexing a value
+- for the task that it is faster for, each one still performed very quickly, (less than second-few seconds) 
+- while when performing the slower task, took a lot more time (tens of seconds)
